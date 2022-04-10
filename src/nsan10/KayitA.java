@@ -28,4 +28,12 @@ public class KayitA {
         }
 
     }
+    public void listele(List<KullaniciA> kullanicilar){
+        for (KullaniciA k:kullanicilar) {//kayitAl() methodundn gelen kisiler listini dongye sokuyor
+            System.out.println("adi : "+k.name+ "kayit zamani : "+ k.kayitZamani);//kisiler listteki her bir kullanicinin ad ve kayit zamanini veriyor
+
+        }
+
+
+    }
 }
